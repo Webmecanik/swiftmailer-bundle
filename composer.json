@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "swiftmailer/swiftmailer": "dev-add_lock_on_queue_flush",
+        "swiftmailer/swiftmailer": "add_lock_on_queue_flush-dev",
         "symfony/dependency-injection": "~2.3|~3.0",
         "symfony/http-kernel": "~2.3|~3.0",
         "symfony/config": "~2.3|~3.0",
@@ -31,17 +31,5 @@
     },
     "autoload": {
         "psr-4": { "Symfony\\Bundle\\SwiftmailerBundle\\": "" }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.3-dev"
-        }
-    },
-        "repositories": [
-        {
-            "type": "github",
-            "url": "https://github.com/Webmecanik/swiftmailer.git"
-        }
-    ],
-    "minimum-stability": "dev"
+    }
 }
