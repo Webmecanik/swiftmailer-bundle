@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "swiftmailer/swiftmailer": "dev-add_lock_on_queue_flush",
+        "swiftmailer/swiftmailer": "dev-mautic2",
         "symfony/dependency-injection": "~2.7|~3.0",
         "symfony/http-kernel": "~2.7|~3.0",
         "symfony/config": "~2.7|~3.0"
